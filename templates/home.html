@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management-Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1><b>WELCOME TO FIT LIFE GYM</b></h1>
+    </header>
+    <nav>
+        <button><a href="{{ ('home') }}">Home</a></button>
+        <button><a href="{{ ('about') }}">About Us</a></button>
+        <button><a href="{{ ('membership') }}">Membership</a></button>
+    </nav>
+
+    <main>
+        <section class="services">
+            <br><h2><u>Our Services</u></h2>
+            <div class="container">
+                <center>
+                    <div class="card">
+                        <h3>Personal Training</h3>
+                        <p>Achieve your fitness goals faster with personalized training, expert guidance, and tailored workouts designed just for you!</p>
+                        <a href="#" class="button">Learn More</a>
+                    </div>
+                </center>
+
+                <center>
+                    <div class="card">
+                        <h3>Group Classes</h3>
+                        <p>Get fit together in our fun and motivating group classes, led by expert trainers!</p>
+                        <a href="#" class="button">Join a Class</a>
+                    </div>
+                </center>
+
+                <center>
+                    <div class="card">
+                        <h3>Nutrition Guidance</h3>
+                        <p>Get expert nutrition guidance to fuel your fitness and reach your goals faster!</p>
+                        <a href="#" class="button">Get a Plan</a>
+                    </div>
+                </center>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2><u>Contact Us</u></h2>
+            <p>If you have any questions or would like more information, please feel free to contact us.</p>
+
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main> 
+</body>
+</html>

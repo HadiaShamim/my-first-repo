@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header h1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 10px;
+}
+
+nav button {
+    background-color: #555;
+    border: none;
+    margin: 0 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+}
+nav button:hover,
+nav a:hover{
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+    
+h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(0, 0,0,0.1);
+    width: 30%;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p{
+    font-size: 0.9rem;
+    margin: 10px 0 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Contact Form */
+.contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Membership Options */
+.membership ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.membership li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.membership li strong {
+    color: #333;
+}

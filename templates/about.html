@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System - About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>About Fit Life Gym</h1>
+    </header>
+    
+    <nav>
+        <button><a href="{{ ('home') }}">Home</a></button>
+        <button><a href="{{ ('about') }}">About Us</a></button>
+        <button><a href="{{ ('membership') }}">Membership</a></button>
+    </nav>
+    
+    <main>
+        <section class="about">
+            <br><h2><u>Who We Are</u></h2><br>
+            <center><p>Fit Life Gym is committed to providing top-notch fitness services to help you achieve your goals.</p></center>
+
+            <br><h2><u>Our Mission</u></h2><br>
+            <center><p>We strive to create a motivating environment where everyone feels welcome and encouraged.</p></center>
+
+            <br><h2><u>Our Vision</u></h2><br>
+            <center><p>To empower individuals to live healthier, stronger lives through accessible, community-focused fitness.</p></center>
+
+            <br><h2><u>Professional Trainers</u></h2><br>
+            <center><p>Certified trainers who are passionate about helping members achieve personal fitness goals through customized guidance.</p></center>
+            <br><h2><u>Nutrition Support</u></h2><br>
+            <center><p>In-house nutrition experts providing guidance and personalized plans to complement fitness goals.</p></center>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>

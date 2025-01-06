@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System - Membership</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Fit Life Gym Membership</h1>
+    </header>
+    <nav>
+        <button><a href="{{ ('home') }}">Home</a></button>
+        <button><a href="{{ ('about') }}">About Us</a></button>
+        <button><a href="{{ ('membership') }}">Membership</a></button>
+    </nav>
+
+
+        <main>
+        <section class="membership">
+            <br><h2><u>Membership Options</u></h2>
+            <ul>
+                <br><li><strong>Basic Plan:</strong> Access to gym facilities, free fitness assessment.</li><br>
+                <li><strong>Premium Plan:</strong> Includes group classes, personal training sessions, and more.</li>
+                <br><li><strong>Elite Plan:</strong> All-access membership with exclusive perks.</li><br>
+                <li><strong>Family Plan:</strong>Shared access and discounted rates for family members.</li>
+                <br><li><strong>Student Access:</strong> Discounted gym access and flexible contracts for students.</li><br>
+                <li><strong>Senior Membership:</strong>Reduced rates and special low-impact classes for those aged 60+</li><br>
+                <li><strong>Off-Peak Membership:</strong>Lower rates for access only during non-peak hours.</li><br>
+
+    <footer>
+        <p>&copy; 2024 FitLife Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>
